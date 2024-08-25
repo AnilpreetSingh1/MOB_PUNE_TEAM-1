@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meetings>
+    <meeting id="1" name="Team Sync" type="Internal" credit="100" startTime="10:00 AM" endTime="11:00 AM" date="2024-08-21" amenities="projector,conference_call,wifi"/>
+    <meeting id="2" name="Client Presentation" type="External" credit="200" startTime="01:00 PM" endTime="03:00 PM" date="2024-08-21" amenities="projector,whiteboard,conference_call"/>
+    <!-- More meetings can be added here -->
+</meetings>

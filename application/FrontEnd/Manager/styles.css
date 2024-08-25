@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.filter-btn {
+    padding: 5px 10px;
+}
+
+.filter-options {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.filter-item {
+    margin-bottom: 5px;
+}
+
+.meeting-list {
+    margin: 20px;
+}
+
+.meeting-item {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.meeting-item.selected {
+    background-color: #035003;
+}
+
+#booking-message {
+    padding: 10px;
+    color: green;
+    font-weight: bold;
+}
+header {
+    background: linear-gradient(45deg, #494c4e, #8b9092);
+    padding-top: 200px;
+    padding-bottom: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+}

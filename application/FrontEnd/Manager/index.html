@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meeting Booking</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="bg-dark text-light">
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="index.html">Meeting Room System</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <header class="bg-dark text-white text-center py-5">
+        <div class="container">
+            <h1 class="display-8 animate__animated animate__fadeInDown">Book your Meeting Rooms</h1>
+            <p class="lead animate__animated animate__fadeInUp">Effortlessly book your meeting rooms with just a few clicks.</p>
+        </div>
+    </header>
+
+
+    <div class="container mt-5">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <div class="credits">Total Credits: <span id="credit-count">1500</span></div>
+            <div class="search">
+                <input type="text" id="search-input" class="form-control" placeholder="Search">
+                <button class="filter-btn btn btn-outline-light mt-2">Filter</button>
+            </div>
+        </div>
+
+        <div class="filter-options" style="display: none;">
+            <div class="filter-item mb-2">
+                <label><input type="checkbox" name="filter" value="projector"> Projector</label>
+            </div>
+            <div class="filter-item mb-2">
+                <label><input type="checkbox" name="filter" value="conference_call"> Conference Call</label>
+            </div>
+            <div class="filter-item mb-2">
+                <label><input type="checkbox" name="filter" value="whiteboard"> Whiteboard</label>
+            </div>
+            <div class="filter-item mb-2">
+                <label><input type="checkbox" name="filter" value="tv"> TV</label>
+            </div>
+            <div class="filter-item mb-2">
+                <label><input type="checkbox" name="filter" value="wifi"> WiFi</label>
+            </div>
+        </div>
+
+        <div class="meeting-list row" id="meeting-list">
+            <!-- Dynamically generated room cards will go here -->
+        </div>
+
+        <button id="book-button" class="btn btn-outline-light btn-block mt-4">Book</button>
+        <div id="booking-message" class="mt-3"></div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-center text-light py-4 mt-5">
+        <div class="container">
+            <p>© 2024 Meeting Room Booking System | <a href="#" class="text-light">Privacy Policy</a></p>
+        </div>
+        <button onclick="topFunction()" id="backToTop" title="Go to top" class="btn btn-outline-light">Back to Top</button>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

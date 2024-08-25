@@ -1,0 +1,86 @@
+body {
+    font-family: "Roboto";
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #ddd;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+.contains{
+    background: linear-gradient(45deg, #494c4e, #8b9092);
+   
+}
+
+.search input {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.filter-btn {
+    padding: 5px 10px;
+    background-color: #373737;
+}
+
+.filter-options {
+    padding: 10px;
+    background-color: #373737;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.filter-item {
+    margin-bottom: 5px;
+}
+
+.meeting-list {
+    margin: 20px;
+}
+
+.meeting-item {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.meeting-item.selected {
+    background-color: #d3ffd3;
+}
+
+#booking-message {
+    padding: 10px;
+    color: green;
+    font-weight: bold;
+}
+
+
+.meeting-item {
+    padding: 10px;
+    border: 1px solid #171616;
+    margin-bottom: 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+.meeting-item .edit-btn {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background-color: #333333;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.meeting-item .edit-btn:hover {
+    background-color: #2a2a2b;
+}

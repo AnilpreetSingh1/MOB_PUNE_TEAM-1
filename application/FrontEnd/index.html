@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meeting Room Booking System</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="bg-dark text-light">
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="index.html">Meeting Room System</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="./Login/login.html">Login</a></li>
+                <li class="nav-item"><a class="nav-link" href="register.html">Register</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="bg-dark text-white text-center py-5">
+        <div class="container">
+            <h1 class="display-8 animate__animated animate__fadeInDown">Welcome to the Meeting Room Booking System</h1>
+            <p class="lead animate__animated animate__fadeInUp">Effortlessly book your meeting rooms with just a few clicks.</p>
+            <a href="login.html" class="btn btn-outline-light btn-lg mt-3 animate__animated animate__fadeInUp">Get Started</a>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section class="py-5 text-center">
+        <div class="container">
+            <h2 class="mb-4 animate__animated animate__fadeIn">Our Services</h2>
+            <p class="lead mb-5 animate__animated animate__fadeIn">Streamline your meeting room bookings with our advanced system.</p>
+            <div class="row">
+                <div class="col-md-4 animate__animated animate__fadeInLeft">
+                    <i class="fas fa-check-circle fa-3x text-white mb-3"></i>
+                    <h4>Easy Booking</h4>
+                    <p>Quick and hassle-free room bookings.</p>
+                </div>
+                <div class="col-md-4 animate__animated animate__fadeInUp">
+                    <i class="fas fa-cogs fa-3x text-white mb-3"></i>
+                    <h4>Customizable Options</h4>
+                    <p>Tailor room settings to your needs.</p>
+                </div>
+                <div class="col-md-4 animate__animated animate__fadeInRight">
+                    <i class="fas fa-sync-alt fa-3x text-white mb-3"></i>
+                    <h4>Real-Time Updates</h4>
+                    <p>Ensure seamless scheduling and avoid conflicts.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-center text-light py-4">
+        <div class="container">
+            <p>© 2024 Meeting Room Booking System | <a href="#" class="text-light">Privacy Policy</a></p>
+        </div>
+        <button onclick="topFunction()" id="backToTop" title="Go to top" class="btn btn-outline-light">Back to Top</button>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
